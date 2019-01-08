@@ -11,7 +11,7 @@ function init(isProd) {
     output: 'dist/$name.js',
     useTypescriptCompiler: true,
     allowSyntheticDefaultImports: true,
-    sourceMaps: true,
+    sourceMaps: !isProd,
     plugins: [
       WebIndexPlugin({ template: 'src/index.html' }),
       CSSPlugin(),
