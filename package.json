@@ -1,0 +1,26 @@
+{
+  "name": "polkadot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node fuse dev"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "color": "^3.1.0",
+    "fuse-box": "^3.6.0",
+    "minireset.css": "0.0.3",
+    "randomcolor": "^0.5.3",
+    "rc-slider": "^8.6.4",
+    "react": "16.7.0-alpha.2",
+    "react-color": "^2.17.0",
+    "react-dom": "16.7.0-alpha.2",
+    "styled-components": "^4.1.3",
+    "typescript": "^3.2.2",
+    "uglify-es": "^3.3.10",
+    "uglify-js": "^3.4.9"
+  }
+}

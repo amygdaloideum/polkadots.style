@@ -1,0 +1,8 @@
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+#app-container {
+  height: 100vh;
+  overflow: hidden;
+}
